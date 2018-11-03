@@ -25,7 +25,7 @@ pip install mkdocs mkdocs-material
 
 ??? note "若下载慢，可更换安装源为豆瓣"
 	```text
-	sudo pip install --trusted-host pypi.douban.com -i http://pypi.douban.com/simple/ mkdocs mkdocs-material
+	pip install --trusted-host pypi.douban.com -i http://pypi.douban.com/simple/ mkdocs mkdocs-material
 	```
 
 ### **初始化项目**
