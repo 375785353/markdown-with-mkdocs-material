@@ -34,7 +34,7 @@ pip install mkdocs mkdocs-material
 mkdocs new my-project
 ```
 
-会生成my-project目录，进入该目录里，可以看到默认放置了一些文件，包括mkdocs.yaml，这是主配置文件
+会生成my-project目录，进入该目录里，可以看到默认放置了一些文件，包括mkdocs.yml，这是主配置文件
 
 ### **修改主题**
 
@@ -43,6 +43,23 @@ mkdocs.yml里添加:
 ```text
 theme:
   name: material
+```
+
+### **添加页面**
+
+mkdocs.yml里添加:
+
+```text
+nav:
+  - 介绍: index.md
+  - 安装:
+      - 本地环境搭建: install/local.md
+      - 发布至GitHub Pages: install/github-pages.md
+      - 发布至自己的HTTP Server: install/http-server.md
+  - 语法:
+      - 语法总览: syntax/main.md
+      - 标题: syntax/headline.md
+      - 段落: syntax/paragraph.md
 ```
 
 ### **添加扩展**
