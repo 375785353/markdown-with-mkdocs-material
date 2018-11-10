@@ -149,3 +149,4 @@ nav:
       - 7. 支持中文搜索: appendix/search.md
       - 8. mkdocs.yml范例: appendix/yml.md
       - 9. tab: appendix/tab.md
+      - 10. 关于chrome显示异常的问题: appendix/chrome.md
