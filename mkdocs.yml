@@ -62,12 +62,17 @@ extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
 nav:
-  - 一. 介绍: index.md
-  - 二. 安装:
+  - 介绍:
+      - 1. 本文主题: index.md
+      - 2. mkdocs-material介绍: view/what.md
+      - 3. 提前说明: view/statement.md
+      - 4. 最佳实践: view/bestpractice.md
+      - 5. 联系方式: view/contact.md
+  - 安装:
       - 1. 本地环境搭建(含入门配置): install/local.md
       - 2. 发布至GitHub Pages: install/github-pages.md
       - 3. 发布至自己的HTTP Server: install/http-server.md
-  - 三. 语法:
+  - 语法:
       - 1. 语法总览: syntax/main.md
       - 2. 标题: syntax/headline.md
       - 3. 段落: syntax/paragraph.md
@@ -134,7 +139,7 @@ nav:
           - 20.12. 注解-列表-引用: syntax/nest_note_list_quote.md
           - 20.13. 列表-列表-引用: syntax/nest_list_list_quote.md
           - 20.14. 引用-引用-代码: syntax/nest_quote_quote_code.md
-  - 四. 附录:
+  - 附录:
       - 1. 支持代码高亮的语言: appendix/pygments.md
       - 2. emojione全名短名映射表: appendix/emoji_shortname.md
       - 3. 添加百度统计: appendix/baidu_tongji.md
@@ -143,5 +148,4 @@ nav:
       - 6. mkdocs层级关系: appendix/level.md
       - 7. 支持中文搜索: appendix/search.md
       - 8. mkdocs.yml范例: appendix/yml.md
-  - 五. 使用建议: recommend.md
-  - 六. 联系方式: contact.md
+      - 9. tab: appendix/tab.md
