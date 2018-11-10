@@ -9,7 +9,7 @@ theme:
     tabs: true
 ```
 
-![](./img/tab.png)
+![](./../../img/tab.png)
 
 ## **关闭tab**
 
@@ -22,4 +22,4 @@ theme:
     tabs: false
 ```
 
-![](./img/notab.png)
+![](./../../img/notab.png)
