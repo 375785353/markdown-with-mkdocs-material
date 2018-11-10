@@ -12,7 +12,7 @@ theme:
     primary: 'Blue Grey'
     accent: 'Pink'
   feature:
-    tabs: false
+    tabs: true
   #font:
     #text: 'Ubuntu'
     #code: 'Ubuntu Mono'
