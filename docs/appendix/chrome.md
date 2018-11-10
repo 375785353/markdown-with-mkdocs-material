@@ -4,6 +4,7 @@
 
 其他浏览器或者操作系统为英文时chrome浏览器也不会出现这种BUG
 
-笔者已将该问题提交给mkdocs-material的原作者，详：https://github.com/squidfunk/mkdocs-material/issues/911
+笔者已将该问题提交给mkdocs-material的原作者，详见
+https://github.com/squidfunk/mkdocs-material/issues/911
 
 笔者会将持续跟进该BUG的进展
