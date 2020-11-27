@@ -21,7 +21,7 @@ theme:
 
 extra:
   social:
-    - type: github
+    - type: github  # 在新版里type已废弃(感谢HuJialun的反馈)
       link: https://github.com/cyent
   search:
     language: 'jp'
